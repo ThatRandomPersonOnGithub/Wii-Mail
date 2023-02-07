@@ -4,11 +4,21 @@
 <title>Welcome to Wii-Mail</title>               
 <style>
  body{
-background-image: url(Wii-MailBG.png);
-background-size: 1280px 750px;
 font-family: 'Continuum Light', sans-serif;
 font-weight:bolder;
  }
+.bg {
+  /* The image used */
+  background-image: url(Wii-MailBG.png);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
  .navbar {
   overflow: hidden;
   background-color: #333;
@@ -71,6 +81,7 @@ font-weight:bolder;
 </style>
 </head>
 <body>
+<div class="bg">
     <div class="navbar">
         <a href="thatrandompersonongithub.github.io">Home</a>
         <a href="#news">News</a>
@@ -88,5 +99,6 @@ font-weight:bolder;
       </div>
 <h1>Welcome To</h1>
 <img src="Wii-MailLogo.png" width="250px" height="125px" alt="Wii-Mail">
+</div>
 </body>
 </html>
