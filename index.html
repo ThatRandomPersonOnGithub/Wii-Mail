@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <head>
 <link href="https://fonts.cdnfonts.com/css/continuum" rel="stylesheet">
-<title>Welcome to Wii-Mail</title>               
+<title>Welcome to Wii-Mail</title>
+<script>
+var x = window.innerWidth
+
+var y = window.innerHeight
+</script>
 <style>
  body{
 font-family: 'Continuum Light', sans-serif;
 font-weight:bolder;
- }
-.bg {
-  /* The image used */
-  background-image: url(Wii-MailBG.png);
-
-  /* Full height */
-  height: 100%;
-
+background-image: url(Wii-MailBG.png);
+background-size: var(x) var(y);
   /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ }
+
  .navbar {
   overflow: hidden;
   background-color: #333;
